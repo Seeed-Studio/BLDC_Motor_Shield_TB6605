@@ -1,10 +1,34 @@
+/*  BurstRead_demo.ino
 /*
-  Toshiba Brusless MCD(Toshiba TB6605) Shield sample software
-  for Arduino UNO R3 & Grove-LCD RGB Backlight 
+ *  
+ * Copyright (c) 2019 Seeed Technology Co., Ltd.
+ * Website    : www.seeed.cc
+ * Create Time: March 2019
+ * Change Log :
+ *
+ * The MIT License (MIT)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
 
-  A MCD shield is stacked above Arduino board, and a LCD shield is stacked above MCD shield.
-  A BLDC motor is connected with MCD shield.
-  User can do following thing by pressing key on MCD board.
+/*
+  User can do following thing by pressing key on board.
     1. Start,stop or brake motor
     2. Change the direction of motor rotation (CW or CCW)
 
@@ -14,11 +38,6 @@
     3. Motor status: start, stop or brake
     4. The direction of motor rotation (CW/CCW)
     5. Kp value
-
-  A potentiometer installed on MCD shield is connected to analog input 1.
-  The higher the potentiometer value, the faster of the motor speed.
-  
-  R01: 20 Nov, 2018
 */
 
 #include <rgb_lcd.h>
