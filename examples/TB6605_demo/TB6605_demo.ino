@@ -1,5 +1,5 @@
-/*  BurstRead_demo.ino
-/*
+/*  TB6605_demo.ino
+ *
  *  
  * Copyright (c) 2019 Seeed Technology Co., Ltd.
  * Website    : www.seeed.cc
