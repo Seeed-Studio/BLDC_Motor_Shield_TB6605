@@ -1,4 +1,4 @@
-BLDC Motor Shield (TB6605)
+BLDC Motor Shield (TB6605)  [![Build Status](https://travis-ci.com/Seeed-Studio/BLDC_Motor_Shield_TB6605.svg?branch=master)](https://travis-ci.com/Seeed-Studio/BLDC_Motor_Shield_TB6605)
 =================================  
 
 
